@@ -205,7 +205,7 @@ public class CalendarActivity extends AppCompatActivity {
     }
 
     private void showCurrentTime() {
-        Date date2 = new Date(System.currentTimeMillis());  
+        Date date2 = new Date(System.currentTimeMillis());
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy:MM:dd");
         String format = sdf.format(date2);
 
