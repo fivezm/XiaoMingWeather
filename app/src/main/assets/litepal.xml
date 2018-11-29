@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <dbname value="xm_weather"/>
+    <dbname value="EventPlan"/>
+
+    <version value="3"/>
+
+    <list>
+        <mapping class="test.study.wzm.xiaomingweather.DB.City"/>
+        <mapping class="test.study.wzm.xiaomingweather.DB.County"/>
+        <mapping class="test.study.wzm.xiaomingweather.DB.Province"/>
+        <mapping class="test.study.wzm.xiaomingweather.DB.Event"/>
+    </list>
+
+</litepal>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" android:id="@+id/group_weather">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/w100"
+            android:title="天气" />
+        <item
+            android:id="@+id/nav_city"
+            android:icon="@drawable/ic_edit_location_red_24dp"
+            android:title="选择城市" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/group_others">
+        <item
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:id="@+id/nav_calendar"
+            android:title="日程" />
+
+    </group>
+
+</menu>

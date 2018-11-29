@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#70000000"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="15dp"
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:text="2018-10-18"
+            android:textSize="25dp"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sunrise"
+            android:text="日出时间"
+            android:textColor="@android:color/white"
+            android:textSize="17dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sunset"
+            android:text="日落时间"
+            android:textSize="17dp"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tmp_max"
+            android:text="最高温度"
+            android:textSize="17dp"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tmp_min"
+            android:text="最低温度"
+            android:textSize="17dp"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wind_dir"
+            android:text="风向"
+            android:textSize="17dp"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wind_speed"
+            android:text="风速"
+            android:textSize="17dp"
+            android:textColor="@android:color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/press"
+            android:text="大气压强"
+            android:textSize="17dp"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+
+        >
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/item_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="#10000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cond"
+            android:text="晴朗"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="125dp"
+            android:textSize="18sp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dcdcdc" />
+</LinearLayout>

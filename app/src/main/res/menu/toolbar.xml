@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/today_event"
+        android:icon="@drawable/today"
+        android:title="add"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/delete_All"
+        android:icon="@drawable/clearall"
+        android:title="add"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/add_event"
+        android:icon="@drawable/ic_add_action_name"
+        android:title="add"
+        app:showAsAction="always" />
+
+</menu>
