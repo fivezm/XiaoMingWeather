@@ -37,10 +37,6 @@ import test.study.wzm.xiaomingweather.DB.Event;
 
 public class CalendarActivity extends AppCompatActivity {
 
-
-//
-
-    int github;
     CalendarDay currentDate;
     MaterialCalendarView calendarView;
     DateTimePicker picker;
