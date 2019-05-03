@@ -315,7 +315,7 @@ public class WeatherActivity extends AppCompatActivity {
     public void requestWeather(final String weatherId) {
         showProgressDialog();
         loadBingPic();
-        String weatherUrl = "https://free-api.heweather.com/s6/weather?location=" + weatherId + "&key=9fd05e5767e14b71a0b6d05cdd3058fc";
+        String weatherUrl = "https://free-api.heweather.com/s6/weather?location=" + weatherId + "&key= 申请<和天气>的账号会有一个key,把key替换掉这段文字";
         HttpUtil.sendRequestWithOKhttp(weatherUrl, new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
