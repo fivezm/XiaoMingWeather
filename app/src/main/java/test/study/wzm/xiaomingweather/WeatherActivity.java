@@ -211,6 +211,7 @@ public class WeatherActivity extends AppCompatActivity {
 
     /**
      * 加载名人名言
+     * 2019.5.3发现名人名言api不能使用了,所以关闭名人名言更新功能
      */
     private void loadFocusWord() {
         String requestUrl = "http://api.avatardata.cn/MingRenMingYan/Random?key=1067a21929ab4a9f8d549801cf58b82e";
@@ -255,7 +256,7 @@ public class WeatherActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 drawerLayout.openDrawer(GravityCompat.START);
-                loadFocusWord();
+               // loadFocusWord();
             }
         });
 //        swipeRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
@@ -365,7 +366,7 @@ public class WeatherActivity extends AppCompatActivity {
                         }
                         //swipeRefresh.setRefreshing(false);
                         closeProgressDialog();
-                        loadFocusWord();
+                        //loadFocusWord();
                     }
                 });
             }
